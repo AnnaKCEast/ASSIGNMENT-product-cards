@@ -1,3 +1,63 @@
-body {
-  background-color: blueviolet;
+#container {
+  background-color: rgba(145, 96, 192, 0.658);
+  display:flex;
+  text-align: justify;
+ }
+ .layer-img {
+  position:relative;
+ }
+ .soldout{
+  position:absolute;
+  left:-50px
+ }
+.card {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-flow: row wrap;  
+ background-color: antiquewhite;
+}
+.available {
+  background-color: darkgrey;
+  color: yellow;
+}
+
+.header {
+  border: 1px solid lightblue;
+  text-align: center;
+  font-family:'Alex Brush';
+  background-color: antiquewhite;
+  
+}
+.card-text {
+  margin-left: 1px;
+  margin-right: 3px;
+  font-family:'Josefin Slab', serif;
+}
+
+.Specifications {
+  font-weight: bold;
+  font-family: 'Josefin Slab', serif;
+}
+.specs {
+  font-size: x-small;
+  font-weight: bold;
+  
+}
+.sizing {
+  line-height: 1px;
+  font-weight: bold;
+  font-family: 'Josefin Slab', serif;
+}
+
+.price {
+  line-height: 1px;
+  font-weight: bold;
+  font-family: 'Josefin Slab', serif;
+  
+}
+.amount {
+  text-indent: 10px;
+  font-weight: bold;
+  font-family: 'Josefin Slab', serif;
 }
